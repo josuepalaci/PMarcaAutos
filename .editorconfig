@@ -1,0 +1,29 @@
+# EditorConfig para VSCode, JetBrains y Visual Studio
+
+# Indentación
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf # Fin de línea
+charset = utf-8 # Codificación de caracteres
+trim_trailing_whitespace = true # Espacios en blanco
+insert_final_newline = true # Espacios en blanco
+
+# Estilo de línea
+[*.{js,ts,jsx,tsx,css,scss,html,xml,yml,json}]
+max_line_length = 120
+# Estilo de línea para archivos de código C#
+[*.cs]
+max_line_length = 120
+
+# Most frequently used .NET-coding-convention properties are supported
+csharp_space_between_parentheses=expressions, control_flow_statements
+csharp_style_var_for_built_in_types=true
+
+# JetBrains Rider custom properties for code formatting styles
+resharper_csharp_brace_style=next_line
+resharper_csharp_blank_lines_around_invocable=2
+
+# Estilo de línea para archivos .sql
+[*.sql]
+max_line_length = 120
